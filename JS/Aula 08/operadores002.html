@@ -1,0 +1,95 @@
+<!--
+     -OBS01- Quando se tem operadores aritimeticos, lógicos
+     e relacionais na mesmo expressão, a ordem é; Primeiro
+     os operadores aritimeticos depois os relacionais e por
+     ultimo os lógicos.
+     ex;
+     > var a = 5
+undefined
+> var b = 8
+undefined
+> a > b && b % 2 ==0
+R= false pois a não é maior que b
+
+     -OBS 02- Toda vez que aparecer os três operadores lógicos na 
+     mesma expressão, a ordem é; primeiro um !, depois um  &&
+     depois um ||. Os operadores RELACIONAIS não tem ordem
+     de precedência, soma oque vier primeiro.
+
+03- Relacionais;
+esses sao;
+- (>) maior
+- (<) menor
+- (>=) maior ou igual
+- (<=) menor ou igual
+- (==) igual
+- (!=) diferente
+
+ex; 
+5>4 = true
+8<3 = false
+3>=5 = false
+9<=4 = false
+8==8 = true
+4!=3 = true
+
+- Da uma praticada no node usando var, ex; (var a= 10 e var b= 30,
+a < b ? true!)
+
+-Identidade
+é um operador (===) que diz se o valor é identico, tanto no valor
+quanto no tipo, (tipo no caso se é number ou string)
+ex;
+5==5 = true
+5=="5" true tambem, pois tem o mesmo valor
+agora 5==="5" = false, pois sao tipos diferentes.
+
+- Da uma praticada no node usando var, ex; (var x = 5 e var y = "5"
+usando os operadores "== e ===")
+
+04- Lógicos;
+-esses são;
+-! (negação) é o "NÃO" lógico.
+-&& (conjução) é o 'E'lógico.
+-|| (disjunção) é o "OU" lógico.
+
+-Negação;
+!= true ou false
+
+-Conjução;
+É um operador binário, que tem dois valores, um de cada lado
+dependendo da posição dele, eu tenho um valor lógico de cada lado
+na conjução, precisa ser tudo verdadeiro, para ser true, caso
+contrarío, é tudo false.
+
+ex; 
+Eu quero duas canetas, uma azul e uma vermelha, só as duas que pode 
+ser true, caso qualquer outra vier, é false.
+
+true (caneta vermelha) e true caneta (caneta azul) = true
+true (canete vermelha) e false (caneta preta) = false
+false (nenhuma caneta) e true (caneta azul) = false
+false (nenhuma caneta) e false (nenhuma caneta) = false
+
+-Disjunção
+Támbem é um operador binário, que tem dois valores, um de cada lado
+dependendo da posição dele, eu tenho um valor lógico de cada
+lado. Na disjunção, basta um lado ser verdadeiro, para o
+resultado ser verdadeiro.
+
+ex;
+true + true = true
+true + false = true
+false + true + true
+false + false = false
+
+05- Ternário;
+é composto por dois símbolos que aparecem na mesma expressão, esse 
+são; (? e :)
+ É divido em três partes, teste(?) true(:) false
+ -O primeiro é um teste lógico, que da verdadeiro ou falso
+- O segundo é oq vai acontecer quando o teste der verdadeiro
+- O terceiro é oq vai acontecer quando o teste der falso
+ex;
+    teste media de aprovação >= 7.5 ? "aprovado" : "reprovado"
+-->
